@@ -5,7 +5,8 @@ API_URL = 'https://api.wayforpay.com/api'
 PURCHASE_URL = 'https://secure.wayforpay.com/pay'
 
 SUPPORTED_LANGUAGES = ['AUTO', 'RU', 'UA', 'EN']
-PAYMENT_SYSTEMS = ['card', 'privat24', 'lpTerminal', 'btc', 'credit', 'payParts', 'qrCode']
+PAYMENT_SYSTEMS = ['card', 'privat24', 'lpTerminal', 'btc', 'credit', 'payParts', 'qrCode',
+                   'masterPass', 'visaCheckout', 'googlePay', 'applePay']
 
 
 class TransactionType(str, Enum):
